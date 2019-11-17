@@ -1,12 +1,16 @@
+.header,
+.navigation {
+  width: 100%;
+  justify-content: center;
+}
 .menu-opciones {
   padding: 0 0;
-  margin-left: 14px;
   font-size: 0.64em;
 }
 
 .perfil {
   width: 45vw;
-  height: 34vh;
+  height: 32vh;
 }
 
 .logos {
@@ -14,6 +18,7 @@
   height: 16vh;
 }
 .tituloDescriptivo {
+  padding: 0 0;
   font-size: 1em;
 }
 

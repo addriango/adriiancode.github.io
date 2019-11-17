@@ -1,7 +1,15 @@
+.header {
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+
 .menu-opciones {
-  padding: 0 0;
-  margin-left: 20px;
+  padding: 4 0;
   font-size: 0.8em;
+  color: aliceblue;
+  border-bottom: 1px solid white;
+  height: 7vh;
 }
 
 .subencabezado {
@@ -11,4 +19,22 @@
 .perfil {
   width: 38vw;
   height: 33vh;
+}
+
+.navigation,
+.lista-opciones,
+.list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 0px;
+}
+.marca-personal {
+  margin: 10px 0px;
+}
+.navigation {
+  background-color: rgb(3, 5, 24);
+}
+
+.tituloDescriptivo {
+  padding: 0 0;
 }
