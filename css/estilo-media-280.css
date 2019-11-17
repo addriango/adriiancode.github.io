@@ -1,10 +1,22 @@
 .menu-opciones {
   padding: 0 0;
-  margin-left: 16px;
-  font-size: 0.8em;
+  margin-left: 14px;
+  font-size: 0.64em;
 }
 
 .perfil {
   width: 45vw;
   height: 34vh;
+}
+
+.logos {
+  width: 28vw;
+  height: 16vh;
+}
+.tituloDescriptivo {
+  font-size: 1em;
+}
+
+.rs {
+  font-size: 1em;
 }

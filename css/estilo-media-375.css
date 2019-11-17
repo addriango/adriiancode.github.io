@@ -1,6 +1,6 @@
 .menu-opciones {
   padding: 0 0;
-  margin-left: 24px;
+  margin-left: 20px;
   font-size: 0.8em;
 }
 
@@ -9,5 +9,6 @@
 }
 
 .perfil {
+  width: 38vw;
   height: 33vh;
 }
