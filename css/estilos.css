@@ -1,0 +1,159 @@
+* {
+  margin: 0vw;
+  padding: 0vw;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgb(3, 5, 24);
+  color: white;
+}
+
+.header {
+  background-color: white;
+  height: 10vh;
+  font-size: 4vh;
+  width: 100vw;
+}
+
+.perfil {
+  width: 12vw;
+  border-radius: 50%;
+  margin: 22vh 0vw;
+  height: 38vh;
+}
+
+.contenido-uno,
+.list-item,
+.lista-opciones,
+.navigation,
+.header,
+.footer,
+.logos,
+.proyectos-targetas,
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-opciones,
+.logos {
+  color: rgb(3, 5, 24);
+  letter-spacing: -0.2px;
+  padding: 0vh 5vw 0vh 5vw;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.profesion {
+  background-color: white;
+  color: rgb(3, 5, 24);
+  padding: 4px 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.tituloDescriptivo {
+  box-sizing: border-box;
+  font-size: 7vh;
+  line-height: 10vh;
+  letter-spacing: -0.2px;
+  text-transform: capitalize;
+  width: 40vw;
+  text-align: center;
+}
+
+.subencabezado {
+  font-size: 0.55em;
+  letter-spacing: 0.2px;
+}
+
+.proyectos-destacados {
+  padding: 5vh 0vw;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+div {
+  width: 28vw;
+  /* flex-shrink: 0; */
+  border-radius: 4px;
+  background-color: white;
+  color: rgb(3, 5, 24);
+  text-align: center;
+  margin-left: 3.2vw;
+}
+
+.proyectos-targetas div:hover {
+  transform: scale(1.03);
+  transition-duration: 0.2s;
+}
+
+.tituloDescriptivo:hover,
+.perfil:hover {
+  transform: scale(1.08);
+  transition-duration: 0.15s;
+}
+
+.logos:hover,
+.menu-opciones:hover {
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+}
+
+.header,
+.contenido-uno {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.logo-linkedin,
+.logo-instagram,
+.logo-facebook,
+.logo-twiter,
+.logo-whasap {
+  width: 5vw;
+  margin: 5vh 0vw;
+}
+
+.logos {
+  padding: 2vh 0vw;
+}
+
+.rs {
+  text-decoration: none;
+  color: rgb(3, 5, 24);
+  font-weight: bold;
+  padding-top: 2vh;
+  margin: 7vh 0vw 0vh 0vw;
+  text-align: center;
+  background-color: white;
+}
+
+.contenido-uno,
+.footer,
+.proyectos-destacados,
+.rs {
+  width: 100vw;
+}
+
+.marca-personal {
+  width: 4vw;
+  height: 80%;
+}

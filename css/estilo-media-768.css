@@ -1,0 +1,25 @@
+.proyectos-destacados {
+  font-size: 2.6vh;
+}
+.proyectos-targetas div {
+  width: 46vw;
+  margin: 2vh 2vw;
+}
+
+.perfil {
+  width: 19vw;
+  margin: 10vh 2vw;
+  height: 40vh;
+}
+
+a .logos {
+  width: 10vw;
+}
+
+.logo-whasap,
+.logo-linkedin,
+.logo-instagram,
+.logo-facebook,
+.logo-twiter {
+  width: 8vw;
+}

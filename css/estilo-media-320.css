@@ -1,0 +1,32 @@
+.menu-opciones {
+  font-size: 3.2vh;
+  width: 24vw;
+  padding-left: 3vw;
+  padding-right: 0vw;
+}
+
+.tituloDescriptivo {
+  font-size: 4.4vh;
+}
+.subencabezado {
+  font-size: 0.6em;
+}
+
+.perfil {
+  width: 38vw;
+  height: 28vh;
+}
+
+.logo-linkedin,
+.logo-instagram,
+.logo-facebook,
+.logo-twiter,
+.logo-whasap {
+  width: 26vw;
+  margin: 1.5vh 0vw;
+}
+
+.logos {
+  margin: 2px 0px;
+  height: 22vh;
+}

@@ -1,0 +1,46 @@
+.proyectos-targetas div {
+  width: 92vw;
+  margin-left: 4.2vw;
+}
+
+.tituloDescriptivo {
+  padding-top: 5vh;
+  font-size: 5vh;
+  width: 90vw;
+}
+
+.subencabezado {
+  font-size: 0.6em;
+  letter-spacing: 0.6px;
+}
+
+.perfil {
+  width: 30vw;
+  border: none;
+  border-radius: 50%;
+  margin-top: 4vh;
+  height: 36vh;
+}
+
+.logo-whasap,
+.logo-linkedin,
+.logo-instagram,
+.logo-facebook,
+.logo-twiter {
+  width: 26vw;
+  margin: 1.5vh 0vw;
+}
+
+.logos {
+  padding-top: 0.1vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.rs {
+  font-size: 3.6vh;
+}
+
+.marca-personal {
+  width: 10vw;
+}
