@@ -5,11 +5,11 @@
 }
 .menu-opciones {
   padding: 0 0;
-  font-size: 0.64em;
+  font-size: 0.9em;
 }
 
 .perfil {
-  width: 45vw;
+  width: 43vw;
   height: 32vh;
 }
 
@@ -18,10 +18,14 @@
   height: 16vh;
 }
 .tituloDescriptivo {
-  padding: 0 0;
-  font-size: 1em;
+  padding: 3vh 0;
+  font-size: 1.2em;
 }
 
 .rs {
   font-size: 1em;
+}
+
+.subencabezado {
+  font-size: 0.54em;
 }

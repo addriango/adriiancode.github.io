@@ -1,6 +1,5 @@
-.proyectos-targetas div {
-  width: 92vw;
-  margin-left: 4.2vw;
+.proyectos-targetas {
+  width: 100vw;
 }
 
 .tituloDescriptivo {
@@ -15,11 +14,11 @@
 }
 
 .perfil {
-  width: 30vw;
-  border: none;
+  width: 32vw;
   border-radius: 50%;
   margin-top: 4vh;
-  height: 36vh;
+  margin-bottom: 2vh;
+  height: 38vh;
 }
 
 .logo-whasap,
@@ -42,9 +41,60 @@
 }
 
 .marca-personal {
-  width: 10vw;
+  width: 12vw;
 }
 
-.sobremi {
+.imagen-marca {
+  width: 100vw;
+}
+
+.targetas {
+  width: 90vw;
+}
+
+.navigation {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  z-index: 3;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.lista-opciones {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-opciones {
+  padding-right: 0;
+  border-bottom: none;
+  position: fixed;
+  color: white;
+  font-size: 1.5em;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  margin: 20px 0;
+}
+.header {
+  height: 12vh;
+}
+
+.navigation.is-active {
+  left: 0;
+}
+
+.miNombre-header {
   display: none;
 }

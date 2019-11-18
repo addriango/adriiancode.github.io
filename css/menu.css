@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?s0xvon");
+  src: url("../fonts/icomoon.eot?s0xvon#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?s0xvon") format("truetype"),
+    url("../fonts/icomoon.woff?s0xvon") format("woff"),
+    url("../fonts/icomoon.svg?s0xvon#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+}
+
+.burger-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: pink;
+  line-height: 50px;
+  text-align: center;
+  color: rgb(3, 5, 24);
+  position: fixed;
+  left: 3vw;
+  top: 50vh;
+  z-index: 4;
+  font-size: 28px;
+}

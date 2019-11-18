@@ -1,5 +1,5 @@
 .menu-opciones {
-  font-size: 3vh;
+  font-size: 3.6vh;
   width: 100%;
   padding: 0 0;
 }
@@ -8,11 +8,11 @@
   font-size: 3.6vh;
 }
 .subencabezado {
-  font-size: 0.6em;
+  font-size: 0.64em;
 }
 
 .perfil {
-  width: 38vw;
+  width: 36vw;
   height: 28vh;
 }
 
@@ -28,4 +28,8 @@
 .logos {
   margin: 2px 0px;
   height: 18vh;
+}
+
+.rs {
+  font-size: 3vh;
 }

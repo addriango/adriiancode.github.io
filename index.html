@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,19 +14,22 @@
     <link rel="stylesheet" href="css/estilo-media-1024.css" media="screen and (max-width:1024px)"/>
     <link rel="stylesheet" href="css/estilo-media-768.css" media="screen and (max-width:768px)"/>
     <link rel="stylesheet" href="css/estilo-media-425.css" media="screen and (max-width:425px)"/>
+    <link rel="stylesheet" href="css/menu.css" media="screen and (max-width:425px)"/>
     <link rel="stylesheet" href="css/estilo-media-375.css" media="screen and (max-width:375px)"/>
     <link rel="stylesheet" href="css/estilo-media-320.css" media="screen and (max-width:320px)"/>
     <link rel="stylesheet" href="css/estilo-media-280.css" media="screen and (max-width:280px)"/>
   </head>
   <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="header">
-      <img class="marca-personal" src="https://res.cloudinary.com/dh1ptdgbs/image/upload/v1573950678/A-min_ce4ks4.png" alt="logo adrian">
+      <figure class="imagen-marca">
+        <img class="marca-personal" src="https://res.cloudinary.com/dh1ptdgbs/image/upload/v1573950678/A-min_ce4ks4.png" alt="logo adrian"/>
+        <a class="miNombre-header" href="#">Adrian Gomez</a>
+      </figure>
       <nav class="navigation">
         <ul class="lista-opciones">
           <li class="list-item">
-            <a class="menu-opciones" id="menu-portafolio" href="#pdes">
-              Portafolio</a
-            >
+            <a class="menu-opciones" id="menu-portafolio" href="#pdes">Portafolio</a>
           </li>
           <li class="list-item">
             <a
@@ -59,20 +62,34 @@
         />
       </figure>
     </section>
-    <section class="proyectos-destacados" id="pdes">
-      <h2>Proyectos Destacados</h2>
+    <section class="portafolio" id="pdes">
+      <h2>Portafolio</h2>
     </section>
     <section class="proyectos-targetas">
-      <div class="targeta-uno">
-        <h3 class="titulo-proyectos">
-          Proyectos Destacados
-        </h3>
+      <div class="targetas">
+        <img class="img-proyecto-uno" src="https://res.cloudinary.com/dh1ptdgbs/image/upload/v1573950286/avatar_879x1238_-min_xl4rbh.png" alt="imagen proyecto uno"/>
+        <div class="descripcion-targetas">
+          <h3 class="titulo-proyectos">Cajero automatico</h3>
+          <h4 class="resultado-descripcion">Resultado Final :</h4>
+          <h5 class="skills">Skills Aplicados :</h5>
+        </div>
       </div>
-      <div class="targeta-dos">
-        <h3 class="titulo-proyectos">Proyectos Destacados</h3>
       </div>
-      <div class="targeta-tres">
-        <h3 class="titulo-proyectos">Proyectos Destacados</h3>
+      <div class="targetas">
+        <img class="img-proyecto-dos" src="https://res.cloudinary.com/dh1ptdgbs/image/upload/v1573950286/avatar_879x1238_-min_xl4rbh.png" alt="imagen proyecto dos"/>
+        <div class="descripcion-targetas">
+          <h3 class="titulo-proyectos">Tienda Online</h3>
+          <h4 class="resultado-descripcion">Resultado Final :</h4>
+          <h5 class="skills">Skills Aplicados :</h5>
+        </div>
+      </div>
+      <div class="targetas">
+        <img class="img-proyecto-tres" src="https://res.cloudinary.com/dh1ptdgbs/image/upload/v1573950286/avatar_879x1238_-min_xl4rbh.png" alt="imagen proyecto tres"/>
+        <div class="descripcion-targetas">
+          <h3 class="titulo-proyectos">Machine Learning con Javascript</h3>          
+          <h4 class="resultado-descripcion">Resultado Final :</h4>
+          <h5 class="skills">Skills Aplicados</h5>
+        </div>
       </div>
     </section>
     <a class="rs" href="#">adriangomezdev@gmail.com</a>
@@ -115,5 +132,6 @@
           alt="logo twiter"
       /></a>
     </footer>
+    <script src="./js/lo.js"></script>
   </body>
 </html>

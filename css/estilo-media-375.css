@@ -2,22 +2,18 @@
   display: block;
   height: 100%;
   text-align: center;
+  width: 100%;
 }
 
 .menu-opciones {
   padding: 4 0;
-  font-size: 0.8em;
-  color: aliceblue;
-  border-bottom: 1px solid white;
+  font-size: 1.3em;
+  color: white;
   height: 7vh;
 }
 
-.subencabezado {
-  font-size: 4vw;
-}
-
 .perfil {
-  width: 38vw;
+  width: 34vw;
   height: 33vh;
 }
 
@@ -30,11 +26,20 @@
 }
 .marca-personal {
   margin: 10px 0px;
+  padding: 0 0;
 }
 .navigation {
-  background-color: rgb(3, 5, 24);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
 .tituloDescriptivo {
-  padding: 0 0;
+  padding: 3.5vh 0;
+  font-size: 4.4vh;
+}
+.subencabezado {
+  font-size: 3.8vw;
+}
+
+.rs {
+  font-size: 5vw;
 }

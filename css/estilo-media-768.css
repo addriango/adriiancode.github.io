@@ -1,15 +1,15 @@
-.proyectos-destacados {
-  font-size: 2.6vh;
+.portafolio {
+  font-size: 2vh;
 }
-.proyectos-targetas div {
-  width: 46vw;
-  margin: 2vh 2vw;
+.proyectos-targetas {
+  width: 100vw;
+  margin: 0 0;
 }
 
 .perfil {
-  width: 19vw;
+  width: 20vw;
   margin: 10vh 2vw;
-  height: 40vh;
+  height: 36vh;
 }
 
 a .logos {
@@ -25,5 +25,25 @@ a .logos {
 }
 
 .marca-personal {
-  width: 5.5vw;
+  width: 8vw;
+}
+
+.tituloDescriptivo {
+  font-size: 1.6em;
+}
+
+.descripcion-targetas {
+  margin: -2em 0 0 0;
+  height: 100px;
+  color: rgb(3, 5, 24);
+  text-align: center;
+}
+
+.targetas {
+  margin: 2vh 0vw;
+  width: 45%;
+}
+
+.header {
+  padding: 0 0;
 }
