@@ -1,7 +1,18 @@
+const mobile = window.matchMedia("screen and (max-width:425px)");
+mobile.addListener(validation);
+
 const nav = document.querySelector(".navigation");
 const boton = document.querySelector("#burger-menu");
 
-boton.addEventListener("click", show_nav);
+function validation(event) {
+  if (event.matches) {
+    boton.addEventListener("click", show_nav);
+  } else {
+    boton.removeEventListener("click", show_nav);
+  }
+}
+
+validation(mobile);
 
 function show_nav() {
   if (nav.classList.contains("is-active")) {
