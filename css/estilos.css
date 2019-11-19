@@ -15,15 +15,14 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  height: 8vh;
-  font-size: 3.2vh;
+  height: 56px;
+  font-size: 18px;
 }
 
 .perfil {
-  width: 12vw;
+  width: 180px;
   border-radius: 50%;
   margin: 16vh 0vw;
-  height: 38vh;
 }
 
 .contenido-uno,
@@ -69,7 +68,7 @@ h6 {
 .tituloDescriptivo {
   box-sizing: border-box;
   font-size: 6vh;
-  line-height: 10vh;
+  line-height: 50px;
   letter-spacing: -0.2px;
   text-transform: capitalize;
   width: 30vw;
@@ -86,6 +85,7 @@ h6 {
   padding: 1.4vh 0vw;
   letter-spacing: 1.2px;
   text-align: center;
+  font-size: 15px;
 }
 
 .proyectos-targetas {
@@ -112,7 +112,6 @@ h6 {
 .contenido-uno {
   justify-content: center;
   align-items: center;
-  width: 100vw;
 }
 
 .footer {
@@ -125,8 +124,8 @@ h6 {
 .logo-facebook,
 .logo-twiter,
 .logo-whasap {
-  width: 5vw;
-  margin: 5vh 0vw;
+  width: 90px;
+  margin: 20px 0px;
 }
 
 .rs {
@@ -136,8 +135,8 @@ h6 {
   background-color: white;
   display: block;
   text-align: center;
-  padding-top: 2vh;
-  font-size: 3vh;
+  padding-top: 22px;
+  font-size: 24px;
 }
 
 .contenido-uno,
@@ -163,6 +162,7 @@ h6 {
 .proyectos-targetas {
   justify-content: space-evenly;
   margin: 4vh 0vw;
+  text-align: center;
 }
 
 .targetas {
@@ -213,4 +213,9 @@ h6 {
   text-decoration: none;
   color: rgb(3, 5, 24);
   font-weight: bold;
+}
+
+.menu-opciones,
+.miNombre-header {
+  font-size: 20px;
 }

@@ -1,12 +1,12 @@
 .header {
-  height: 10vh;
+  height: 64px;
 }
 
 .tituloDescriptivo {
   margin-right: 0;
   width: 46vw;
   font-size: 6vh;
-  line-height: 7vh;
+  line-height: 40px;
   letter-spacing: -0.1px;
 }
 .subencabezado {
@@ -14,7 +14,7 @@
 }
 
 .perfil {
-  width: 17vw;
+  width: 140px;
 }
 
 .logos {
@@ -27,7 +27,7 @@
 .logo-instagram,
 .logo-facebook,
 .logo-twiter {
-  width: 10vw;
+  width: 100px;
 }
 
 div {
@@ -35,7 +35,7 @@ div {
 }
 
 .portafolio {
-  font-size: 0.7em;
+  font-size: 13px;
 }
 
 .menu-opciones {
@@ -47,5 +47,6 @@ div {
 }
 
 .rs {
-  padding-bottom: 2vh;
+  padding-bottom: 22px;
+  font-size: 22px;
 }

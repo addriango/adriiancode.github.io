@@ -9,8 +9,7 @@
 }
 
 .perfil {
-  width: 43vw;
-  height: 32vh;
+  width: 120px;
 }
 
 .logos {
@@ -18,14 +17,21 @@
   height: 16vh;
 }
 .tituloDescriptivo {
-  padding: 3vh 0;
-  font-size: 1.2em;
+  padding: 10px 0;
+  font-size: 20px;
 }
 
 .rs {
-  font-size: 1em;
+  font-size: 16px;
 }
 
 .subencabezado {
-  font-size: 0.54em;
+  font-size: 12px;
+}
+.marca-personal {
+  width: 44px;
+}
+
+.portafolio {
+  font-size: 11px;
 }

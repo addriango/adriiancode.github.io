@@ -9,16 +9,15 @@
 }
 
 .subencabezado {
-  font-size: 0.6em;
+  font-size: 15px;
   letter-spacing: 0.6px;
 }
 
 .perfil {
-  width: 32vw;
+  width: 140px;
   border-radius: 50%;
   margin-top: 4vh;
   margin-bottom: 2vh;
-  height: 38vh;
 }
 
 .logo-whasap,
@@ -26,10 +25,9 @@
 .logo-instagram,
 .logo-facebook,
 .logo-twiter {
-  width: 26vw;
-  margin: 1.5vh 0vw;
+  width: 60px;
+  margin: 15px 0px;
 }
-
 .logos {
   padding-top: 0.1vh;
   text-align: center;
@@ -37,11 +35,11 @@
 }
 
 .rs {
-  font-size: 3.6vh;
+  font-size: 26x;
 }
 
 .marca-personal {
-  width: 12vw;
+  width: 55px;
 }
 
 .imagen-marca {
@@ -88,7 +86,7 @@
   margin: 20px 0;
 }
 .header {
-  height: 12vh;
+  height: 54px;
 }
 
 .navigation.is-active {
@@ -97,4 +95,8 @@
 
 .miNombre-header {
   display: none;
+}
+
+.portafolio {
+  font-size: 14px;
 }

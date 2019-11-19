@@ -1,5 +1,5 @@
 .portafolio {
-  font-size: 2vh;
+  font-size: 12px;
 }
 .proyectos-targetas {
   width: 100vw;
@@ -7,9 +7,8 @@
 }
 
 .perfil {
-  width: 20vw;
-  margin: 10vh 2vw;
-  height: 36vh;
+  width: 150px;
+  margin: 50px 5px;
 }
 
 a .logos {
@@ -21,15 +20,18 @@ a .logos {
 .logo-instagram,
 .logo-facebook,
 .logo-twiter {
-  width: 8vw;
+  width: 76px;
 }
 
 .marca-personal {
-  width: 8vw;
+  width: 58px;
 }
 
 .tituloDescriptivo {
-  font-size: 1.6em;
+  font-size: 30px;
+  line-height: 40px;
+  width: 320px;
+  padding-top: 23px;
 }
 
 .descripcion-targetas {
@@ -45,5 +47,31 @@ a .logos {
 }
 
 .header {
-  padding: 0 0;
+  font-size: 18px;
+}
+
+.menu-opciones {
+  font-size: 18px;
+  padding: 0 13px 0 0;
+}
+
+.subencabezado {
+  font-size: 15px;
+}
+
+.rs {
+  font-size: 20px;
+}
+
+.imagen-marca {
+  width: 43%;
+}
+
+.navigation {
+  width: 57%;
+}
+
+.lista-opciones {
+  text-align: center;
+  justify-content: space-evenly;
 }
